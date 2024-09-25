@@ -292,10 +292,17 @@ main {
 
 .readmorebutton {
   font-size: 12px;
-    background: none !important;
-    color: blue !important;
+    background: rgb(119, 56, 164) !important;
+    color: white !important;
     border: none !important;
-    text-decoration: underline !important;
+    padding: 8px 20px !important;
+    cursor: pointer;
+}
+.readmorebutton:hover{
+  background: white!important;
+  color: rgb(124, 39, 185) !important;
+  border: 1px solid rgb(124, 39, 185) !important;
+  scale: 1.01;
 }
 
 

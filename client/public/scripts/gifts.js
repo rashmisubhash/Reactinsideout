@@ -43,7 +43,7 @@ const renderGifts = async () => {
             bottomContainer.appendChild(audience);
 
             const link = document.createElement('a');
-            link.textContent = 'Read More >';
+            link.textContent = 'Info';
             link.setAttribute('role', 'button');
             link.href = `/gifts/${gift.id}`;
             link.classList.add('contrast', 'readmorebutton'); // Use contrast class for the button
