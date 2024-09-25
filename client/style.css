@@ -1,0 +1,336 @@
+body {
+  background: black;
+}
+
+
+
+/* Style for the header container */
+.header-container {
+  display: flex;
+  justify-content: space-between; /* Space between left and right sections */
+  align-items: center; /* Align items vertically */
+  padding: 10px;
+  background-color: #f8f8f8; /* Optional background color */
+}
+
+/* Style for the left section (logo and title) */
+.header-left {
+  display: flex;
+  align-items: center; /* Align logo and title vertically */
+}
+
+.header-left img {
+  height: 50px; /* Adjust size of the logo */
+  margin-right: 10px; /* Add some space between logo and title */
+}
+
+/* Style for the right section (button) */
+.header-right {
+  display: flex;
+  align-items: center; /* Align button vertically */
+}
+
+.header-right button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+/* Optional styles for hover effect on button */
+.header-right button:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/*  */
+
+
+
+/* Root Styles CSS */
+:root {
+  background-color: white;
+  font-family: Avenir, Helvetica, sans-serif;
+  color: black;
+}
+
+/* Header CSS */
+.header-container {
+  overflow: hidden;
+  padding: 20px 10px;
+  padding-bottom: 60px;
+}
+
+.header-left {
+  float: left;
+  height: 100px;
+  /* width: 310px; */
+}
+
+.header-left img {
+  padding-top: 8px;
+  height: 80px;
+}
+
+.header-left h1 {
+  float: right;
+  font-size: 40px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  padding-top:30px;
+  padding-right:10px;
+}
+
+.header-right button {
+background-color: rgb(7, 7, 7);
+color: white !important;
+border: solid;
+border-width: 3px;
+/* border-color: rgb(3, 7, 89); */
+border-radius: 5px;
+box-sizing: border-box;
+color:  rgb(3, 7, 89);
+cursor: pointer;
+padding: 15px 20px;
+text-align: center;
+text-transform: uppercase;
+touch-action: manipulation;
+/* width: 80px; */
+}
+
+/* Home page CSS */
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .card {
+  width: 300px;
+  height: 400px;
+  background: transparent;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(3, 7, 89);
+  border-radius: 0.3rem;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.057);
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-bottom: 60px;
+}
+
+.card img {
+  height: 100%;
+} */
+
+.custom-header {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.top-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 250px;
+}
+
+.bottom-container {
+  margin-top:30px;
+  margin-left: 10px;
+}
+
+.bottom-container h3 {
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.bottom-container p {
+  margin: 2px;
+}
+
+.bottom-container a {
+  color: rgb(228, 16, 133);
+  text-decoration: none;
+}
+
+/* 404 Page CSS */
+
+.fof-container{
+  display: table;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  color: white;
+}
+
+.fof {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.fof p {
+  color:white;
+}
+
+.fof h1 {
+  color:white;
+  font-size: 50px;
+  display: inline-block;
+  padding-right: 12px;
+  animation: type .6s alternate infinite;
+}
+
+@keyframes type {
+  from {box-shadow: inset -3px 0px 0px #888;}
+  to {box-shadow: inset -3px 0px 0px transparent;}
+}
+
+/* Detail Page CSS*/
+
+.gift-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-container {
+  padding-left: 100px;
+  width: 40vw;
+}
+
+/* .image-container img {
+  width: 80%;
+} */
+
+.gift-details {
+  width: 45vw;
+  margin-left: 5em;
+}
+
+.gift-details * {
+  color: white !important;
+}
+
+
+
+
+/*  */
+
+.grid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 3fr)) !important;
+}
+
+/* Responsive Grid for Cards */
+.grid-cols-4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+  /* Each card will take at least 250px width and expand as needed */
+  gap: 1rem; /* Add spacing between cards */
+  padding: 1rem;
+}
+
+.card-image {
+  border: 2px solid black;
+  background-color: white;
+}
+
+/* Limit image size to ensure they don't overflow */
+.card-image img {
+  /* width: 100%; The image takes full card width */
+  height: auto; /* Maintain the aspect ratio */
+  max-height: 300px; /* Set a max height to maintain consistency */
+  object-fit: cover; /* Ensure the image fills the container without stretching */
+}
+
+/* Ensure card content has padding */
+.card-body {
+  padding: 1rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* Adjust card title and other text */
+.card-body h3, .card-body p {
+  margin: 0.5rem 0;
+  word-wrap: break-word; /* Ensure text wraps properly */
+}
+
+/* Add some basic card styling */
+.card {
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  overflow: hidden; /* Ensure content does not overflow */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: .5em;
+}
+
+/* Media Queries for Responsive Behavior */
+@media (max-width: 768px) {
+  .grid-cols-4 {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust for medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-cols-4 {
+    grid-template-columns: 1fr; /* Stack cards on small screens */
+  }
+}
+
+.readmorebutton {
+  font-size: 12px;
+    background: none !important;
+    color: blue !important;
+    border: none !important;
+    text-decoration: underline !important;
+}
+
+
+
+
+
+
+/*  */
+
+
+#headers {
+  background-color: rgb(149, 0, 255); /* Use Pico's primary color */
+  padding: 0px 1rem;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.container.grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
