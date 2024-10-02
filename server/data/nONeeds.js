@@ -7,7 +7,7 @@ const giftData = [
         "inStock": true, // New attribute: inStock
         "image": "https://amctheatresshop.com/cdn/shop/files/IO2-STAND1_5449_MF1.jpg?v=1718786432",
         "description": "This is a cardboard cutout of Anger from the cute Disney movie Inside Out 2. Easy to set up, it features a single-sided, high-quality print on cardboard with an easel on the back so that it can stand on its own. Cardboard stand-ups make great decor for parties, photo ops, and events.",
-        "return": true,
+        "returnItem": true,
         "refundable": false
     },
     {
@@ -18,7 +18,7 @@ const giftData = [
         "inStock": false, // New attribute: inStock
         "image": "https://store.regmovies.com/cdn/shop/files/IO2-STAND9_5457_MF1.jpg?v=1718786462",
         "description": "This is a cardboard cutout of Anger from the cute Disney movie Inside Out 2. Easy to set up, it features a single-sided, high-quality print on cardboard with an easel on the back so that it can stand on its own. Cardboard stand-ups make great decor for parties, photo ops, and events.",
-        "return": true,
+        "returnItem": true,
         "refundable": false
     },
     {
@@ -29,7 +29,7 @@ const giftData = [
         "inStock": true, // New attribute: inStock
         "image": "https://amctheatresshop.com/cdn/shop/files/IO2-STAND2_5450_MF1.jpg?v=1718786435",
         "description": "This is a cardboard cutout of Anger from the cute Disney movie Inside Out 2. Easy to set up, it features a single-sided, high-quality print on cardboard with an easel on the back so that it can stand on its own. Cardboard stand-ups make great decor for parties, photo ops, and events.",
-        "return": true,
+        "returnItem": true,
         "refundable": false
     },
     {
@@ -40,7 +40,7 @@ const giftData = [
         "inStock": true, // New attribute: inStock
         "image": "https://amctheatresshop.com/cdn/shop/files/IO2-STAND5_5453_MF1.jpg?v=1718786448",
         "description": "This is a cardboard cutout of Anger from the cute Disney movie Inside Out 2. Easy to set up, it features a single-sided, high-quality print on cardboard with an easel on the back so that it can stand on its own. Cardboard stand-ups make great decor for parties, photo ops, and events.",
-        "return": true,
+        "returnItem": true,
         "refundable": false
     },
     {
@@ -51,7 +51,7 @@ const giftData = [
         "inStock": true, // New attribute: inStock
         "image": "https://amctheatresshop.com/cdn/shop/files/IO2-STAND6_5454_MF1.jpg?v=1718786461",
         "description": "This is a cardboard cutout of Anger from the cute Disney movie Inside Out 2. Easy to set up, it features a single-sided, high-quality print on cardboard with an easel on the back so that it can stand on its own. Cardboard stand-ups make great decor for parties, photo ops, and events.",
-        "return": true,
+        "returnItem": true,
         "refundable": false
     },
     {
@@ -62,7 +62,7 @@ const giftData = [
         "inStock": true, // New attribute: inStock
         "image": "https://amctheatresshop.com/cdn/shop/files/IO2-STAND7_5455_MF1.jpg?v=1718786461",
         "description": "This is a cardboard cutout of Anger from the cute Disney movie Inside Out 2. Easy to set up, it features a single-sided, high-quality print on cardboard with an easel on the back so that it can stand on its own. Cardboard stand-ups make great decor for parties, photo ops, and events.",
-        "return": true,
+        "returnItem": true,
         "refundable": false
     }
 ];
