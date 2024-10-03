@@ -32,10 +32,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![alt text](<vid (1).gif>)
+![alt text](https://github.com/rashmisubhash/insideoutbe/blob/main/vid%20(1).gif)
 
 
-![](https://github.com/rashmisubhash/insideoutbe/blob/main/vid.gif)
+<!-- ![](https://github.com/rashmisubhash/insideoutbe/blob/main/vid.gif) -->
 
 
 <!-- Replace this with whatever GIF tool you used! -->
