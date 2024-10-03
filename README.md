@@ -28,6 +28,8 @@ The following **additional** features are implemented:
 
 ![alt text](image.png)
 
+![alt text](image-1.png)
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
