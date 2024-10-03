@@ -24,9 +24,17 @@ The following **additional** features are implemented:
 
 - [ ] List anything else that you added to improve the site's functionality!
 
+## Image of database connection and table values
+
+![alt text](image.png)
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
+
+![alt text](<vid (1).gif>)
+
+
 ![](https://github.com/rashmisubhash/insideoutbe/blob/main/vid.gif)
 
 
