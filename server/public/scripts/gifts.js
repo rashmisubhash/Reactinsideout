@@ -45,7 +45,7 @@ const renderGifts = async () => {
             const link = document.createElement('a');
             link.textContent = 'Info';
             link.setAttribute('role', 'button');
-            link.href = `/gifts/${gift.id}`;
+            link.href = `/gift/${gift.id}`;
             link.classList.add('contrast', 'readmorebutton'); // Use contrast class for the button
             bottomContainer.appendChild(link);
 
